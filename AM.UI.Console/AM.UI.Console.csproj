@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+<Project Sdk="Microsoft.NET.Sdk">
+=======
+<<<<<<< HEAD
+﻿<Project Sdk="Microsoft.NET.Sdk">
+=======
+<Project Sdk="Microsoft.NET.Sdk">
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
+>>>>>>> 5b057c77e90a803772b28684946df5cd8e4b3ab2
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+<<<<<<< HEAD
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.14">
+=======
+<<<<<<< HEAD
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.3">
+>>>>>>> 5b057c77e90a803772b28684946df5cd8e4b3ab2
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AM.ApplicationCore\AM.ApplicationCore.csproj" />
+    <ProjectReference Include="..\AM.Infrastructure\AM.Infrastructure.csproj" />
+<<<<<<< HEAD
+=======
+=======
+    <ProjectReference Include="..\AM.ApplicationCore\AM.ApplicationCore.csproj" />
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
+>>>>>>> 5b057c77e90a803772b28684946df5cd8e4b3ab2
+  </ItemGroup>
+
+</Project>
